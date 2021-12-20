@@ -1,0 +1,16 @@
+{
+  "name": "repr-format-node-util",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.node"
+  ],
+  "gypfile": "binding.gyp",
+  "scripts": {
+    "prepack": "node-gyp rebuild; mv build/Release/repr_format_node_util.node index.node"
+  },
+  "dependencies": {
+    "node-gyp": "^8.4.1"
+  }
+}
