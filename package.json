@@ -11,6 +11,7 @@
     "prepack": "node-gyp rebuild; mv build/Release/repr_format_node_util.node index.node"
   },
   "dependencies": {
-    "node-gyp": "^8.4.1"
-  }
+    "node-gyp": "^10.0.0"
+  },
+  "packageManager": "yarn@4.0.1"
 }
