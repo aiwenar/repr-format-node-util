@@ -2,9 +2,11 @@
   "name": "repr-format-node-util",
   "version": "0.1.0",
   "main": "index.js",
+  "types": "index.d.ts",
   "license": "MIT",
   "files": [
-    "index.node"
+    "index.node",
+    "index.d.ts"
   ],
   "gypfile": "binding.gyp",
   "scripts": {
